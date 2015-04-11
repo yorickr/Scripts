@@ -28,7 +28,7 @@ def volumedown():
     newvol = vol[0] - 5
     try:
         m1.setvolume(newvol)
-	sendNotification("Volume down")
+        sendNotification("Volume down")
     except alsaaudio.ALSAAudioError:
         sendNotification("Volume can't go below 0")
 
