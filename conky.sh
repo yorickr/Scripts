@@ -2,4 +2,4 @@
 echo '{"version":1}'
 echo '['
 echo '[],'
-exec conky -c /home/imegumii/conkyrc
+exec conky -c /home/imegumii/Configs/conkyrc
