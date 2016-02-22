@@ -6,5 +6,5 @@ killbyname () {
 }
 
 killbyname "sh /home/imegumii/Scripts/mplayerthing.sh"
-ssh -p 777 -N -L6600:127.0.0.1:6600 imegumii@www.imegumii.nl & sh ~/Scripts/mplayerthing.sh & ncmpcpp ; killall mplayer & killbyname "sh /home/imegumii/Scripts/mplayerthing.sh" & killbyname "ssh -p 777 -N -L6600"
+ssh -p 777 -N -L6600:127.0.0.1:6600 imegumii@www.imegumii.space & sh ~/Scripts/mplayerthing.sh & ncmpcpp ; killall mplayer & killbyname "sh /home/imegumii/Scripts/mplayerthing.sh" & killbyname "ssh -p 777 -N -L6600"
 
